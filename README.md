@@ -8,7 +8,7 @@ acModal is very easy to use here is a basic example for an alert modal:
 document.getElementById('button').addEventListener('click', function () {
     acModal.alert({
         message: 'This is an alert page', //the message to display
-        buttonCallBack: function () { /the function on the click of the OK button
+        buttonCallBack: function () { //the function on the click of the OK button
             console.log('You have clicked on OK');
         },
     });
