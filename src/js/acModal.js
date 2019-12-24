@@ -40,7 +40,11 @@ export default class acModal
             callBackFunction: parameters.buttonCallBack,
         };
 
-        let alert = new Alert(title, message, button, parameters);
+        let params = {
+            appendTo: parameters.appendTo,
+        };
+
+        let alert = new Alert(title, message, button, params);
         alert.display();
     }
 }

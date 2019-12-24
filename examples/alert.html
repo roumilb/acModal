@@ -11,6 +11,9 @@
         document.getElementById('button').addEventListener('click', function () {
             acModal.alert({
                 message: 'This is an alert page',
+                buttonCallBack: function () {
+                    console.log('You have clicked on OK');
+                },
             });
         });
 	</script>
