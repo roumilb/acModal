@@ -49,3 +49,13 @@ document.getElementById('button').addEventListener('click', function () {
 | `cancelCallBack` | `function`      |false|
 | `cancelText` | `string`      |false default: Cancel|
 | `appendTo` | `string`      |false (query selector)|
+
+## For development
+After you've clone the repository first run:
+```shell
+npm install
+```
+Then to run webpack:
+```shell
+npm run dev
+```
