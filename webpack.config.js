@@ -4,7 +4,7 @@ module.exports = {
     entry: './src/js/index.js',
     output: {
         path: path.resolve(__dirname, 'build'),
-        filename: 'app.bundle.js',
+        filename: 'acModal.js',
         libraryTarget: 'var',
         library: 'acModal',
     },
