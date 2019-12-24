@@ -1,0 +1,19 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<h1>Click on the button to show the alert modal:</h1>
+		<button id="button">Click me</button>
+		<p id="lorem_ispum"></p>
+		<div id="append"></div>
+	</body>
+	<script src="../build/app.bundle.js?ver=5"></script>
+	<script>
+        document.getElementById('button').addEventListener('click', function () {
+            acModal.alert({
+                message: 'This is an alert in the dic with the id append',
+                appendTo: '#append',
+            });
+        });
+	</script>
+</html>
