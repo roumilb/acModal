@@ -1,8 +1,8 @@
 {
   "name": "@roumi/ac-modal",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Lightweight responsive javascript library to make beautiful alert and confirm modals",
-  "main": "src/js/index.js",
+  "main": "index.js",
   "scripts": {
     "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
     "dev": "webpack",
@@ -19,6 +19,7 @@
     "node-sass": "4.13.0",
     "sass-loader": "8.0.0",
     "style-loader": "1.1.1",
-    "webpack": "4.41.4"
+    "webpack": "4.41.4",
+    "webpack-cli": "3.3.10"
   }
 }

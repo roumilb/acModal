@@ -1,10 +1,10 @@
 var path = require('path');
 var webpack = require('webpack');
 module.exports = {
-    entry: './src/js/index.js',
+    entry: './index.js',
     output: {
         path: path.resolve(__dirname, 'build'),
-        filename: 'acModal.js',
+        filename: 'index.js',
         libraryTarget: 'var',
         library: 'acModal',
     },
