@@ -2,6 +2,24 @@
 A very simple lightweight responsive javascript library to make custom `confirm()` and `alert()`
 acModal is very easy to use here is a basic example for an alert modal:
 
+## Install it
+
+### With npm: 
+Run this command in your project
+```
+npm install --save-dev @roumi/ac-modal
+```
+And then: 
+```javascript
+const acModal = require('@roumi/ac-modal');
+```
+
+### Inline
+Or you can add it with a script tag, download the file `build/index.js` and then:
+```html
+<script src="https://yourwebsite.com/path/to/index.js"></script>
+```
+
 ## Make an alert modal
 ``` javascript
 //on element click show an alert modal
