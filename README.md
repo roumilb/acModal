@@ -7,11 +7,11 @@ acModal is very easy to use here is a basic example for an alert modal:
 ### With npm: 
 Run this command in your project
 ```
-npm install --save-dev @roumi/ac-modal
+npm install --save-dev ac-modal
 ```
 And then: 
 ```javascript
-const acModal = require('@roumi/ac-modal');
+const acModal = require('ac-modal');
 ```
 
 ### Inline
