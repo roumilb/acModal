@@ -1,5 +1,6 @@
 <html>
 	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	<body>
 		<h1>Click on the button to show the alert modal:</h1>
@@ -10,7 +11,8 @@
 	<script>
         document.getElementById('button').addEventListener('click', function () {
             acModal.alert({
-                message: 'This is an alert page',
+                title: 'This is the title of the alert modal',
+                message: 'This is an alert modal, you can put either a long text or a short one it\'s free ;)',
                 buttonCallBack: function () {
                     console.log('You have clicked on OK');
                 },

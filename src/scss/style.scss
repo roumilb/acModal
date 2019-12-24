@@ -10,14 +10,24 @@
     z-index: 100;
 
     #acmodal__modal {
-        width: 500px;
         height: auto;
         background-color: $white;
         border-radius: 10px;
         position: fixed;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -60%);
+
+        @media screen and (max-width: 599px) {
+            width: 96%;
+            right: 2%;
+            bottom: 10px;
+
+        }
+
+        @media screen and (min-width: 599px) {
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -60%);
+            width: 500px;
+        }
 
         #acmodal__modal__title, #acmodal__modal__message, #acmodal__modal__actions {
             display: block;
@@ -34,10 +44,15 @@
 
         #acmodal__modal__message {
             min-height: 70px;
+            font-size: 1.1rem;
         }
 
         #acmodal__modal__actions {
             text-align: right;
+
+            @media screen and (max-width: 599px) {
+                text-align: center;
+            }
 
             .acmodal__button {
                 padding: .5rem .8rem;
@@ -49,17 +64,29 @@
                 cursor: pointer;
                 transition: .2s;
 
-                &.acmodal__button__primary {
-                    background-color: $color-primary;
-                    color: $white;
 
-                    &:hover {
+                @media screen and (max-width: 599px) {
+                    width: 90%;
+                    margin: .5rem 0;
+                }
+
+
+                @media screen and (min-width: 599px) {
+                    &.acmodal__button__secondary:hover {
+                        background-color: $light-grey;
+                    }
+                    &.acmodal__button__primary:hover {
                         opacity: .8;
                     }
                 }
 
-                &.acmodal__button__secondary:hover {
-                    background-color: $light-grey;
+                &.acmodal__button__primary {
+                    background-color: $color-primary;
+                    color: $white;
+                }
+
+                &.acmodal__button__secondary {
+                    background-color: $white;
                 }
             }
         }
