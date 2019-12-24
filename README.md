@@ -1,5 +1,5 @@
 # acModal
-A very simple lightweight javascript library to make custom `confirm()` and `alert()`
+A very simple lightweight responsive javascript library to make custom `confirm()` and `alert()`
 acModal is very easy to use here is a basic example for an alert modal:
 
 ## Make an alert modal
