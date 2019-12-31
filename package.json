@@ -1,6 +1,6 @@
 {
-  "name": "@roumi/ac-modal",
-  "version": "1.0.5",
+  "name": "ac-modal",
+  "version": "1.1.1",
   "description": "Lightweight responsive javascript library to make beautiful alert and confirm modals",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,14 @@
     "start": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Remi-Leclercq-Blondel/acModal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Remi-Leclercq-Blondel/acModal/issues"
+  },
+  "homepage": "https://github.com/Remi-Leclercq-Blondel/acModal/blob/master/README.md",
   "author": "Rémi Leclercq <leclercq.remi@gmail.com>",
   "license": "MIT",
   "devDependencies": {

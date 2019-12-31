@@ -1,6 +1,6 @@
 @import "settings";
 
-#acmodal__overlay {
+.acmodal__overlay {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -9,7 +9,7 @@
     background-color: rgba(0, 0, 0, .6);
     z-index: 100;
 
-    #acmodal__modal {
+    .acmodal__modal {
         height: auto;
         background-color: $white;
         border-radius: 10px;
@@ -29,7 +29,7 @@
             width: 500px;
         }
 
-        #acmodal__modal__title, #acmodal__modal__message, #acmodal__modal__actions {
+        .acmodal__modal__title, .acmodal__modal__message, .acmodal__modal__actions {
             display: block;
             width: 100%;
             margin: 0;
@@ -38,16 +38,16 @@
             color: $color-primary;
         }
 
-        #acmodal__modal__title {
+        .acmodal__modal__title {
             border-bottom: 1px solid $light-grey;
         }
 
-        #acmodal__modal__message {
+        .acmodal__modal__message {
             min-height: 70px;
             font-size: 1.1rem;
         }
 
-        #acmodal__modal__actions {
+        .acmodal__modal__actions {
             text-align: right;
 
             @media screen and (max-width: 599px) {
