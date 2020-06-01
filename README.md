@@ -2,6 +2,10 @@
 A very simple lightweight responsive javascript library to make custom `confirm()` and `alert()`
 acModal is very easy to use here is a basic example for an alert modal:
 
+## Demo
+[Alert modal](https://remi-leclercq-blondel.github.io/acModal/examples/alert.html)
+[Confirm modal](https://remi-leclercq-blondel.github.io/acModal/examples/confirm.html)
+
 ## Install it
 
 ### With npm: 
